@@ -1,4 +1,4 @@
-const functions = require("../lib/index");
+import * as functions from "../lib/index";
 describe("When checking if CP1252 compatible when a valid cp1252 string", () => {
   const input =
     "!#$%&'()*+,-./0123456789:,<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_àbcdefghijklmnopqrstuvwxyz{|}~ €‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ  ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ";
