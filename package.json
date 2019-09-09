@@ -1,6 +1,6 @@
 {
   "name": "cp1252validator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This package provides a code page 1252 validator to textinput",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "jest",
-    "dist": "webpack",
+    "dist": "tsc",
     "prepublish": "npm run dist && npm run test"
   },
   "repository": {
