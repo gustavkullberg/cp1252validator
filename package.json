@@ -2,9 +2,15 @@
   "name": "cp1252validator",
   "version": "1.0.0",
   "description": "This package provides a code page 1252 validator to textinput",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dist": "webpack",
+    "prepublish": "npm run dist && npm run test"
   },
   "repository": {
     "type": "git",
@@ -17,6 +23,12 @@
   },
   "homepage": "https://github.com/gustavkullberg/cp1252validator#readme",
   "devDependencies": {
-    "jest": "^24.8.0"
+    "@types/jest": "^24.0.18",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
   }
 }
