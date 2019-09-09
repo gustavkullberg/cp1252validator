@@ -1,6 +1,6 @@
 {
   "name": "cp1252validator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This package provides a code page 1252 validator to textinput",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
